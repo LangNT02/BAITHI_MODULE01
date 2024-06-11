@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện Form và danh sách nhân viên</title>
+    <link rel="stylesheet" href="./Hinh1.1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Add Employee</h2>
+            <form id="employeeForm">
+                <label for="employeeForm">Employee code</label>
+                <input type="text" id="employeeForm" name="employeeForm" required>
+                <label for="employeeForm">Employee name</label>
+                <input type="text" id="employeeForm" name="employeeForm" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Add Employee</button>
+
+            </form>
+
+        </div>
+
+        <div class="table-container">
+            <h2>Employee List</h2>
+            <table>
+                <th>
+                    <tr>
+                        <th>STT</th>
+                        <th>Employee code</th>
+                        <th>Employee name</th>
+                        <th>Email</th>
+                        <th>Option</th>
+                    </tr>
+                </th>
+                <tbody id="employeeList">
+                
+                    <tr>
+                        <td>1</td>
+                        <td>NV001</td>
+                        <td>Thornton</td>
+                        <td>Thornton@gmail.com</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                            <button class="edit-btn">Delete</button>
+                        </td>
+                    </tr>
+               
+              
+               
+                    <tr>
+                        <td>2</td>
+                        <td>NV002</td>
+                        <td>Stark</td>
+                        <td>Stark@gmail.com</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                            <button class="edit-btn">Delete</button>
+                        </td>
+                    </tr>
+
+              
+                    <tr>
+                        <td>3</td>
+                        <td>NV003</td>
+                        <td>Rogers</td>
+                        <td>Rogers@gmail.com</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                            <button class="edit-btn">Delete</button>
+                        </td>
+                    </tr>
+               
+               
+                    <tr>
+                        <td>4</td>
+                        <td>NV004</td>
+                        <td>Banner</td>
+                        <td>Banner@gmail.com</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                            <button class="edit-btn">Delete</button>
+                        </td>
+                    </tr>
+              
+            
+                    <tr>
+                        <td>5</td>
+                        <td>NV005</td>
+                        <td>Romanoff</td>
+                        <td>Romanoff@gmail.com</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                            <button class="edit-btn">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+        </div>
+    </div>
+
+    <script src="./Hinh1.1.js"></script>
+    <script src="./Hinh1.3/ii.js"></script>
+</body>
+</html>
